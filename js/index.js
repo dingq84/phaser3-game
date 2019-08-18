@@ -4,10 +4,7 @@ const config = {
   height: h,
   parnet: 'app',
   physics: {
-    default: 'arcade',
-    arcade: {
-      debug: true,
-    }
+    default: 'arcade'
   },
   scene: [gameStart, gamePlay, gameOver]
 }
